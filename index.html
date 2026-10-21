@@ -157,5 +157,21 @@
         <button type="button">Botón normal (button)</button>
     </p>
 </form>
+<h2>Buscador de Wikipedia</h2>
+
+<form action="https://es.wikipedia.org/w/index.php" method="get">
+    <p>
+        <label for="busqueda">Buscar en Wikipedia:</label>
+        <input type="search" id="busqueda" name="search" list="sugerencias">
+        
+        <datalist id="sugerencias">
+            <option value="Formulario web">
+            <option value="HTML">
+            <option value="Protocolo de transferencia de hipertexto">
+        </datalist>
+    </p>
+
+    <button type="submit">Buscar</button>
+</form>
 </body>
 </html>
