@@ -118,6 +118,26 @@
             <label for="mes">Mes:</label>
             <input type="month" id="mes" name="mes">
         </p>
+                <p>
+            <label for="modulos">Módulos:</label>
+            <select id="modulos" name="modulos" multiple>
+                <optgroup label="Primer curso">
+                    <option value="montaje" selected>Montaje y mantenimiento</option>
+                    <option value="redes">Redes locales</option>
+                </optgroup>
+
+                <optgroup label="Segundo curso">
+                    <option value="web">Aplicaciones web</option>
+                    <option value="seguridad">Seguridad informática</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios"
+                      rows="5" cols="40"></textarea>
+        </p>
     </fieldset>
 </form>
 </body>
